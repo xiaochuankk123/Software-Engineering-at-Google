@@ -9,7 +9,7 @@
 *Nothing is built on stone; all is built on sand, but we must build as if the sand were stone.*
 																																		*--Jorge Luis Borges*
 
-岩石上无法建起任何东西;沙子上却能建起所有，如果要在岩石上建造沙滩，我们一定能够实现。
+岩石上无法建起任何东西;沙子上却能建起所有，但是如果沙子换成了石头，我们也一定能建造。
 															乔治·路易斯·博尔赫斯
 
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
