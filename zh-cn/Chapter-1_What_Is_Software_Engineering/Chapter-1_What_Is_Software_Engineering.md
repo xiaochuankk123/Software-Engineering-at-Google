@@ -9,13 +9,20 @@
 *Nothing is built on stone; all is built on sand, but we must build as if the sand were stone.*
 																																		*--Jorge Luis Borges*
 
+岩石上无法建起任何东西;沙子上却能建起所有，如果要在岩石上建造沙滩，我们一定能够实现。
+															乔治·路易斯·博尔赫斯
+
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-我们看到，编程和软件工程之间有三个关键的区别：时间、规模和权衡取舍。在一个软件工程项目中，工程师需要更多关注时间成本和需求变更。在软件工程中，我们需要更加关注规模和效率，无论是对我们生产的软件，还是对生产软件的组织。最后，作为软件工程师，我们被要求做出更复杂的决策，其结果风险更大，而且往往是基于对时间和规模增长的不确定性的预估。
+我们看到，编程和软件工程之间有三个关键的区别：时间、规模和权衡取舍。在一个软件工程项目中，工程师需要更多关注时间成本和需求变更。在软件工程中，我们需要更加关注规模和效率，无论是对我们生产的软件，还是对生产软件的组织。最后，作为软件工程师，我们被要求做出更复杂的决策，其结果风险更大，而且往往是基于对时间和规模增长的不确定性的预估。（原）
+
+我们看到在编写程序和软件工程学有三个关键的区别：时间、规模和权衡取舍。在一个软件工程学的项目中，工程师们需要更加关注投入和产出。在一个软件开发团队中，我们需要更多关注规模和效率，既是我们自己在孕育这个软件，也是在致力于组织在孕育这个软件。最后，作为软件工程师，对于更高风险的结果，我们要做出更多复杂的决策，往往是基于时间和增长不准确的预估。（新）
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
 在谷歌内部，我们有时会说，"软件工程是随着时间推移的编程。"编程当然是软件工程的一个重要部分：毕竟，编程首先是生成新软件的方式。如果您接受这一区别，那么很明显，我们可能需要在编程任务（开发）和软件工程任务（开发、修改、维护）之间进行划分。时间的增加为编程增加了一个重要的新维度。这是一个立方体三维模型不是正方形的二维模型，距离不是速度。软件工程不是编程。
+
+> 在谷歌，我们有时候会说，”软件工程学是超越时间的综合编程学科。“编程当然是软件工程中的一个重要组成部分：毕竟程序是你去生成一个新的软件在某一个领域。如果你认同这个区别，它也清晰的成为我们可能决定去
 
 One way to see the impact of time on a program is to think about the question, “What is the expected life span1 of your code?” Reasonable answers to this question vary by roughly a factor of 100,000. It is just as reasonable to think of code that needs to last for a few minutes as it is to imagine code that will live for decades. Generally, code on the short end of that spectrum is unaffected by time. It is unlikely that you need to adapt to a new version of your underlying libraries, operating system (OS), hardware, or language version for a program whose utility spans only an hour. These short-lived systems are effectively “just” a programming problem, in the same way that a cube compressed far enough in one dimension is a square. As we expand that time to allow for longer life spans, change becomes more important. Over a span of a decade or more, most program dependencies, whether implicit or explicit, will likely change. This recognition is at the root of our distinction between software engineering and programming.
 
